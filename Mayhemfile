@@ -1,0 +1,7 @@
+project: rnshah9/moarvm
+target: moarvm
+
+cmds:
+  - cmd: /repo/moar --dump @@
+    filepath: /test.moarvm
+

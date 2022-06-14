@@ -1,7 +1,7 @@
-project: rnshah9/moarvm
+project: moarvm
 target: moar
 
 cmds:
-  - cmd: /repo/moar --dump @@
+  - cmd: /repo/moar --dump /test.moarvm
     filepath: /test.moarvm
 

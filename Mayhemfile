@@ -2,6 +2,5 @@ project: moarvm
 target: moar
 
 cmds:
-  - cmd: /repo/moar --dump /test.moarvm
-    filepath: /test.moarvm
+  - cmd: /install/repo/install/bin/moar --dump @@
 

@@ -1,3 +1,36 @@
+New in 2022.07
+
+Core:
++ Attempt at implementing a "bytecode-size" dispatch [cc49dcf9]
++ Error message fix - one usually connects *to* things [79bb406d]
+
+Documentation:
+
+GC:
++ Run finalizers even with tc->last_handler_result [3796890b]
+
+JIT:
+
+Spesh:
++ Set facts on disp prog translation of int and num lits [09ce373a]
++ Commit some missed uint things [ced36686]
+
+New in 2022.06
+
+Core:
+
+Documentation:
++ Fix errata in docs/debug-server-protocol.md [99730293]
+
+GC:
++ Add missing SC write barriers to atomic attr bind and cas [a9fcd5a7]
+
+JIT:
+
+Spesh:
+
+Strings:
+
 New in 2022.04
 
 Core:
